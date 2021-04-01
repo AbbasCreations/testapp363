@@ -42,16 +42,14 @@ export const productsPerpageView = (cC, setPerpageProductscount, products) => {
 };
 
 export const ProductsSearchSection = (products, setSearchText) => {
-  let languages = products;
-
   const getSuggestions = (value) => {
     const inputValue = value.trim().toLowerCase();
     const inputLength = inputValue.length;
 
     return inputLength === 0
       ? []
-      : languages.filter(
-          (lang) => lang.NAME.toLowerCase().slice(0, inputLength) === inputValue
+      : products.filter(
+          (prod) => prod.NAME.toLowerCase().slice(0, inputLength) === inputValue
         );
   };
 
@@ -63,9 +61,8 @@ export const ProductsSearchSection = (products, setSearchText) => {
 
   const onChange = (e, { newValue }) => {
     setValue(newValue);
-    e.preventDefault();
     let text = e.target.value;
-    setSearchText(text);
+    setSearchText(newValue);
   };
 
   const onSuggestionsFetchRequested = ({ value }) => {
@@ -81,6 +78,7 @@ export const ProductsSearchSection = (products, setSearchText) => {
     id: "abbas",
 
     value,
+    //onChange: onChange,
     onChange: onChange,
   };
 
