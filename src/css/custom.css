@@ -13,7 +13,7 @@
   border-radius: 0px;
 }
 
-.react-autosuggest__suggestions-list li{list-style-type: none;border:1px solid #555;}
+.react-autosuggest__suggestions-list li{list-style-type: none;border-bottom:1px solid #999;padding:2px;}
 .react-autosuggest__suggestions-list li div{font-size: 14px;text-transform: capitalize;}
 
 
