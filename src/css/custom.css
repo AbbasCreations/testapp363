@@ -636,7 +636,7 @@ header {
 /************************************ The navigation and the dropdown menu **************************************/
 header nav {
   height: 46px;
-  background-color:royalblue !important;
+  background-color:#1e295e!important;
 }
 header nav .container {
   max-width: 100%;
