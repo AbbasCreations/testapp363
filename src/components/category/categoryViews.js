@@ -61,11 +61,17 @@ export const ProductsSearchSection = (products, setSearchText) => {
   const [value, setValue] = useState("");
   const [suggestions, setSuggestions] = useState([]);
 
+  //const onChange = (e, { newValue }) => {
+   // setValue(newValue);
+    //e.preventDefault();
+    //let text = e.target.value;
+   // setSearchText(text);
+  //};
+
   const onChange = (e, { newValue }) => {
     setValue(newValue);
-    e.preventDefault();
     let text = e.target.value;
-    setSearchText(text);
+    setSearchText(newValue);
   };
 
   const onSuggestionsFetchRequested = ({ value }) => {
