@@ -1,0 +1,28 @@
+[
+
+{
+    "id":1,
+    "DEPT": "Firearms",
+	"URL":"firearms",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY"
+
+},
+{
+    "id":1,
+    "DEPT": "Firearms",
+    "TYP":"Handguns",
+		"URL":"handguns",
+
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY"
+
+}
+
+
+  ]
