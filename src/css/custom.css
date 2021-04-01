@@ -1,3 +1,22 @@
+.react-autosuggest__suggestions-list{padding:15px 0;height: 400px;overflow-y: scroll;box-shadow:1px 3px 5px #888;}
+.react-autosuggest__suggestions-list::-webkit-scrollbar {
+  width: .3em;
+}
+
+.react-autosuggest__suggestions-list::-webkit-scrollbar-track {
+ -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.react-autosuggest__suggestions-list::-webkit-scrollbar-thumb {
+  background-color: #333 !important;
+  outline: 1px solid #000 !important;
+  border-radius: 0px;
+}
+
+.react-autosuggest__suggestions-list li{list-style-type: none;border:1px solid #555;}
+.react-autosuggest__suggestions-list li div{font-size: 14px;text-transform: capitalize;}
+
+
 .autocomplete {
   /*the container must be positioned relative:*/
   position: relative;
