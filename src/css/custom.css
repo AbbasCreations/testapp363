@@ -1,4 +1,4 @@
-.react-autosuggest__suggestions-list{padding:15px 0;height: 400px;overflow-y: scroll;box-shadow:1px 3px 5px #888;}
+.react-autosuggest__suggestions-list{padding:15px 0;height: 350px;overflow-y: scroll;box-shadow:1px 3px 5px #888;}
 .react-autosuggest__suggestions-list::-webkit-scrollbar {
   width: .3em;
 }
@@ -13,7 +13,8 @@
   border-radius: 0px;
 }
 
-.react-autosuggest__suggestions-list li{list-style-type: none;border-bottom:1px solid #999;padding:2px;}
+.react-autosuggest__suggestions-list li{list-style-type: none;border-bottom:1px solid rgb(219, 210, 210);padding:2.5px 3px;}
+.react-autosuggest__suggestions-list li:hover{background: #eeeded;}
 .react-autosuggest__suggestions-list li div{font-size: 14px;text-transform: capitalize;}
 
 
