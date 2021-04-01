@@ -139,13 +139,7 @@ export default function Category() {
         <div id="category">
           <div className="container">
             <div className="row">
-              <BreadCrumbDisplay
-                filters={filters}
-                dispatch={dispatch}
-                history={history}
-                urlData={urlData}
-              />
-              {
+                            {
                 <SideBarDisplay
                   filters={filters}
                   products={temProducts}
