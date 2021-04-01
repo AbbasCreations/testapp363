@@ -13,7 +13,7 @@
   border-radius: 0px;
 }
 
-input#abbas{padding:5px 0;}
+input#abbas{padding:7.5px 5px;}
 .react-autosuggest__suggestions-list li{list-style-type: none;border-bottom:1px solid rgb(219, 210, 210);padding:3px 3.5px;}
 .react-autosuggest__suggestions-list li:hover{background: #eeeded;}
 .react-autosuggest__suggestions-list li div{font-size: 14px;text-transform: capitalize;}
