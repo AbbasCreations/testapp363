@@ -1,3 +1,40 @@
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: #e9e9e9;
+}
+.autocomplete-active {
+  /*when navigating through the items using the arrow keys:*/
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+
+
+
+
 div#flush-collapseTwo {
   height: 250px;
   overflow-y: scroll;
@@ -490,7 +527,7 @@ section#contentHolder {
 
 /*************************************Header**************************************/
 header {
-  background: #000 !important;
+  background: #fff !important;
   padding: 0;
   position: absolute;
   top: 0;
@@ -501,31 +538,32 @@ header {
 
 #top {
   overflow: hidden;
-  background: #000 !important;
+  background: #fff !important;
   height: 32px;
   max-width: 1920px;
 }
 #top .one p {
   display: block;
   font-family: "Montserrat-Regular";
-  color: #fff;
+  color: #000;
   font-size: 13px;
 }
 /************************************ The top area where a message or call us is displayed **************************************/
 
 /************************************ The middle area containing logo , search bar , login and cart  **************************************/
 #middle {
-  background: #000 !important;
+  background: #ffff !important;
   height: 65px;
 }
 #middle input {
   font-size: 16px;
-  color: #888 !important;
+  color: #333 !important;
   max-width: 560px;
   height: 33px;
+  border:1px solid #777!important;
 }
 #middle input::placeholder {
-  color: #888 !important;
+  color: #333 !important;
   font-family: "Montserrat-Medium";
   font-size: 16px;
 }
@@ -549,18 +587,22 @@ header {
 }
 #middle .logo a img {
   max-width: 185px;
+  filter:invert(1);
 }
 #middle .profile a {
   font-family: "Montserrat-Medium";
   font-size: 12px;
   margin-left: 15px;
+  color:#000!important;
 }
 #middle .profile a i {
   font-size: 20px;
+  color:#000!important;
 }
 #middle .profile a:last-of-type {
   font-family: "Montserrat-SemiBold";
   text-transform: uppercase;
+  color:#000!important;
 }
 #middle .profile a:last-of-type span {
   font-size: 12px;
@@ -573,7 +615,7 @@ header {
 /************************************ The navigation and the dropdown menu **************************************/
 header nav {
   height: 46px;
-  background-color: #222222 !important;
+  background-color:royalblue !important;
 }
 header nav .container {
   max-width: 100%;
