@@ -94,9 +94,30 @@ div#flush-collapseTwo::-webkit-scrollbar-thumb {
 .product-slider__slider_brand{
   width: 100%;
 }
-.product-slider__slider_product{
+#productslider .product-slider__slider_product{
   width: 100%;
+  display: flex;max-width: max-content;overflow-x: scroll;
 }
+
+
+#productslider .product-slider__slider_product::-webkit-scrollbar {
+  width: .3em;border-radius:5px;
+}
+
+#productslider .product-slider__slider_product::-webkit-scrollbar-track {
+ -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+#productslider .product-slider__slider_product::-webkit-scrollbar-thumb {
+  background-color: #333 !important;
+  outline: 1px solid #000 !important;
+  border-radius: 0px;
+}
+
+
+
+
+
 @media (min-width: 768px) {
   .product-slider__slider {
     width: 100%;
