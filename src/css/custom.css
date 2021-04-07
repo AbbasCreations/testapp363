@@ -1932,6 +1932,7 @@ a#zoomer {
   }
 	footer .container{padding-bottom:0px!important;}
   #middle .logo {
+	  order:1;
     padding-top: 5px;
   }
   #middle .logo a img {
@@ -1941,6 +1942,7 @@ a#zoomer {
   #middle .search {
     padding-top: 10px;
     padding-bottom: 10px;
+order:3;
   }
   #middle .search input:focus {
     outline: none !important;
@@ -1966,6 +1968,7 @@ a#zoomer {
   }
   #middle .profile {
     padding-top: 10px;
+	  order:2;
   }
   header nav {
     padding: 0px !important;
