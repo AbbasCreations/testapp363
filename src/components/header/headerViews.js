@@ -85,7 +85,7 @@ export const GetHeaderMiddleViews = (props) => {
       <div id="middle">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-12 col-12 logo justify-content-start align-self-center">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 logo justify-content-start align-self-center">
               <Link to="/">
                 <img
                   src={`/${props.middle.sitelogo}`}
@@ -94,7 +94,7 @@ export const GetHeaderMiddleViews = (props) => {
                 />
               </Link>
             </div>
-            <div className="col-lg-6 col-md-4 col-sm-8 col-7 search justify-content-center align-self-center text-center position-relative">
+            <div className="col-lg-6 col-md-4 col-sm-12 col-12 search justify-content-center align-self-center text-center position-relative">
               <form className="position-relative">
                 <input
                   type="text"
@@ -106,7 +106,7 @@ export const GetHeaderMiddleViews = (props) => {
                 </button>
               </form>
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-4 col-5 profile justify-content-end align-self-center text-right text-light">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-6 profile justify-content-end align-self-center text-right text-light">
               <Link
                 to="/"
                 className="text-light text-decoration-none text-capitalize"
