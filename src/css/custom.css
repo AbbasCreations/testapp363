@@ -595,7 +595,7 @@ header {
 
 /************************************ The middle area containing logo , search bar , login and cart  **************************************/
 #middle {
-  background: #ffff !important;
+  background: #fff !important;
   height: 75px;
 }
 #middle input {
