@@ -162,6 +162,17 @@ export const GetHeaderNavViews = () => {
     setTaxo(taxonomy);
   }, []);
 
+
+<script>
+function openMobile() {
+  var x = document.getElementById("navbarResponsive");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark static-top">
@@ -170,6 +181,7 @@ export const GetHeaderNavViews = () => {
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
+            onclick="openMobile()"
             data-target="#navbarResponsive"
             aria-controls="navbarResponsive"
             aria-expanded="false"
