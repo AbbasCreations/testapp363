@@ -177,7 +177,6 @@ openMobile() {
       <nav className="navbar navbar-expand-lg navbar-dark static-top">
         <div className="container p-0">
           <button
-            onClick={this.openMobile}
             id="mobileopen"
             className="navbar-toggler"
             type="button"
