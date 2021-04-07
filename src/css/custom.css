@@ -563,7 +563,7 @@ button:focus {
 /****************** The main content holder for all the pages , dividing header and the content below it *******************/
 section#contentHolder {
   margin: auto;
-  margin-top: 143px;
+  margin-top: 153px;
   min-height: 50px;
 }
 /****************** The main content holder for all the pages , dividing header and the content below it *******************/
@@ -849,7 +849,7 @@ header .navbar-dark .navbar-nav .dropdown-menu a {
 
 
 
-
+#category{padding-top:15px;}
 /************************************ Main Rotating banners **************************************/
 #indexSlider i {
   font-size: 80px;
@@ -2125,8 +2125,8 @@ a#zoomer {
 	#promo-banner .promolayertwo{background:#f8f9fa;}
 	#promo-banner .promolayertwo:after{background:transparent;}
 	
-
-
+	#productpage #productinfo .infoinner .pname{font-size:24px;}
+	#productpage #descandreview button{font-size:22px;}
   section#contentHolder {
     margin-top: 174px;
   }
