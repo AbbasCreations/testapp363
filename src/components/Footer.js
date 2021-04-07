@@ -29,7 +29,7 @@ const FooterBlockFirst = () => {
         >
           customer service
         </span>
-        <div id="accordzero" className="collapse text-light text-capitalize">
+        <div id="accordzero" className=" text-light text-capitalize">
           <Link
             to="/info/track-your-order"
             className="d-block text-decoration-none text-light mb-1"
@@ -102,7 +102,7 @@ const FooterBlockSecond = () => {
         >
           information
         </span>
-        <div id="accordone" className="collapse text-light text-capitalize">
+        <div id="accordone" className=" text-light text-capitalize">
           <Link
             to="/info/recall-information"
             className="d-block text-decoration-none text-light mb-1"
@@ -139,7 +139,7 @@ const FooterBlockThird = () => {
         >
           information
         </span>
-        <div id="accordtwo" className="collapse text-light text-capitalize">
+        <div id="accordtwo" className=" text-light text-capitalize">
           <Link
             to="/info/recall-information"
             className="d-block text-decoration-none text-light mb-1"
