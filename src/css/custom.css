@@ -144,7 +144,7 @@ div#flush-collapseTwo::-webkit-scrollbar-thumb {
 
 .product-slider__item {
   display: inline-block;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
 }
 .product-slider__item img {
@@ -195,6 +195,7 @@ button:active{outline:none!important;border:0px solid #fff!important;}
   position: relative;
   animation-iteration-count: 1;
   animation-timing-function: ease;
+	margin-bottom:30px!important;
 }
 @keyframes index-slider {
   0% {
@@ -595,7 +596,7 @@ header {
 /************************************ The middle area containing logo , search bar , login and cart  **************************************/
 #middle {
   background: #ffff !important;
-  height: 65px;
+  height: 75px;
 }
 #middle input {
   font-size: 16px;
@@ -626,6 +627,7 @@ header {
   cursor: pointer;
   top: 50% !important;
   transform: translateY(-50%) !important;
+	padding-right:0.5rem;
 }
 #middle .logo a img {
   max-width: 185px;
@@ -666,7 +668,7 @@ header nav i {
   display: none !important;
 }
 header .navbar-dark .navbar-nav {
-  padding: 0px 15px !important;
+  padding: 0px 0px !important;
   margin: 0 !important;
 }
 header .navbar-dark .navbar-nav .nav-item a.nav-link {
