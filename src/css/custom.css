@@ -157,11 +157,11 @@ div#flush-collapseTwo::-webkit-scrollbar-thumb {
 }
 
 .slick-arrow {
-  background: #bc0000;
+  background: transparent;
   border: 0;
-  color: #fff;
+  color: #f8f8f8;
   border-radius: 100%;
-  font-size: 18px;
+  font-size: 36px;
   font-weight: bolder;
   padding: 10px 15px;
   position: absolute;
