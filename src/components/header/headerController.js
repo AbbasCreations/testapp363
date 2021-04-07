@@ -139,6 +139,17 @@ export const GetTaxonomy = (taxo, argDEPT, argTyp, argsubTyp_1) => {
           }
         });
       }
+
+
+function openMobile() {
+  var x = document.getElementById("navbarResponsive");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
       return categories;
       break;
   }
