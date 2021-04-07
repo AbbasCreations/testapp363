@@ -642,6 +642,7 @@ header {
 #middle .profile a i {
   font-size: 20px;
   color:#000!important;
+padding-right:0px!important;
 }
 #middle .profile a:last-of-type {
   font-family: "Montserrat-SemiBold";
