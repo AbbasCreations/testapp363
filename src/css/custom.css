@@ -2123,13 +2123,18 @@ order:3;
   }
 }
 @media (max-width: 767px) {
+	#promo-banner .promolayerone{padding:7.5px 0;}
+#promo-banner .promolayertwo{padding:7.5px 0;}
 	.index-slider-animation{margin-bottom:15px!important;}
 	#promo-banner .promolayerone{background:#f8f9fa;}
 	#promo-banner .promolayerone:after{background:transparent;}
 	#promo-banner .promolayertwo{background:#f8f9fa;}
 	#promo-banner .promolayertwo:after{background:transparent;}
-	
+	#index #productslider .productListing a.product{min-height:335px;}
 	#productpage #productinfo .infoinner .pname{font-size:24px;}
+
+	.product-page-left-main{padding:0px;}
+	.product-page-right-main{padding:0px;}
 	#productpage #descandreview button{font-size:22px;}
   section#contentHolder {
     margin-top: 174px;
