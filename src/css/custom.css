@@ -2117,6 +2117,14 @@ a#zoomer {
   }
 }
 @media (max-width: 767px) {
+
+	#promo-banner .promolayerone{background:#f8f9fa;}
+	#promo-banner .promolayerone:after{background:transparent;}
+	#promo-banner .promolayertwo{background:#f8f9fa;}
+	#promo-banner .promolayertwo:after{background:transparent;}
+	
+
+
   section#contentHolder {
     margin-top: 174px;
   }
