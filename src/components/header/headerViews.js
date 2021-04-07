@@ -163,14 +163,7 @@ export const GetHeaderNavViews = () => {
   }, []);
 
 
-openMobile() {
-  var x = document.getElementById("navbarResponsive");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+
 
   return (
     <>
@@ -180,7 +173,6 @@ openMobile() {
             id="mobileopen"
             className="navbar-toggler"
             type="button"
-            
           >
             <span className="navbar-toggler-icon"></span>
           </button>
