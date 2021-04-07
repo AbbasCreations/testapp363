@@ -674,6 +674,8 @@ header .navbar-dark .navbar-nav {
 header .navbar-dark .navbar-nav .nav-item a.nav-link {
   font-family: "Montserrat-Bold";
   color: #fff;
+font-weight:600;
+	letter-spacing:0.5px;
   line-height: 46px;
   font-size: 15.71px;
   text-transform: uppercase;
