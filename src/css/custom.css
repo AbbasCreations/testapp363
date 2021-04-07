@@ -144,7 +144,7 @@ div#flush-collapseTwo::-webkit-scrollbar-thumb {
 
 .product-slider__item {
   display: inline-block;
-  padding: 20px 0;
+  padding: 20px 5px;
   text-align: center;
 }
 .product-slider__item img {
@@ -662,7 +662,9 @@ header nav {
   background-color:#1e295e!important;
 }
 header nav .container {
-  max-width: 100%;
+  max-width: 1310px!important;
+	padding:0 15px;
+
 }
 header nav i {
   display: none !important;
@@ -1020,7 +1022,7 @@ display: block;
   height:100%;
   border-radius:10px;
 }
-#index #productslider .productListing a.product{background:#fbfbfb;display: block;height: 100%;border-radius:10px;}
+#index #productslider .productListing a.product{background:#fbfbfb;display: block;height: 100%;border-radius:10px;min-height:330px;}
 /************************************ Featured products **************************************/
 
 /************************************ Brands **************************************/
