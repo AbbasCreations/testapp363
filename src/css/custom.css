@@ -2,7 +2,10 @@
 .react-autosuggest__suggestions-list::-webkit-scrollbar {
   width: .3em;
 }
-
+#promo-banner .promolayertwo button {
+    padding: 10px 45px!important;
+    margin-top: 15px;
+}
 .react-autosuggest__suggestions-list::-webkit-scrollbar-track {
  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
