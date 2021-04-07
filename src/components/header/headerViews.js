@@ -163,14 +163,22 @@ export const GetHeaderNavViews = () => {
   }, []);
 
 
+openMobile() {
+  var x = document.getElementById("navbarResponsive");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark static-top">
         <div className="container p-0">
           <button
+            onClick={this.openMobile}
             id="mobileopen"
-            onClick={openMobile()}
             className="navbar-toggler"
             type="button"
             
@@ -322,14 +330,6 @@ export const GetHeaderNavViews = () => {
 };
 function dropDownAction() {
   var x = document.getElementById("cartdropdown");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-function oepnMobile() {
-  var x = document.getElementById("navbarResponsive");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
