@@ -181,7 +181,7 @@ function openMobile() {
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            onclick="openMobile()"
+            onclick="openMobile()" 
             data-target="#navbarResponsive"
             aria-controls="navbarResponsive"
             aria-expanded="false"
