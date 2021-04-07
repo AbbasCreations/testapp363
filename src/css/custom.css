@@ -615,8 +615,8 @@ header {
 }
 #middle form {
   width: auto;
-  max-width: 560px;
-  margin: 0 auto;
+  max-width: 350px;
+  margin: 0 0 0 auto;
 }
 #middle .search i {
   font-size: 17px;
@@ -1953,7 +1953,7 @@ order:3;
     transform-origin: right;
   }
   #middle .search button {
-    top: 20px !important;
+    top: 50% !important;
   }
   #middle .search button i {
     color: #fff;
@@ -2123,7 +2123,7 @@ order:3;
   }
 }
 @media (max-width: 767px) {
-
+	.index-slider-animation{margin-bottom:15px!important;}
 	#promo-banner .promolayerone{background:#f8f9fa;}
 	#promo-banner .promolayerone:after{background:transparent;}
 	#promo-banner .promolayertwo{background:#f8f9fa;}
