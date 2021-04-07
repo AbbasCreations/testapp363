@@ -172,7 +172,9 @@ export const GetHeaderNavViews = () => {
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            onclick="openMobile()" 
+            onClick={() => {
+                  openMobile();
+                }} 
             data-target="#navbarResponsive"
             aria-controls="navbarResponsive"
             aria-expanded="false"
