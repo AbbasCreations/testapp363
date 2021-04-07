@@ -163,16 +163,7 @@ export const GetHeaderNavViews = () => {
   }, []);
 
 
-<script>
-function openMobile() {
-  var x = document.getElementById("navbarResponsive");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark static-top">
