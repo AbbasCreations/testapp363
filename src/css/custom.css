@@ -1591,6 +1591,7 @@ footer p {
 }
 footer .normal i {
   font-size: 25px;
+	padding-right:25px;
 }
 footer .normal a {
   max-width: 25px;
@@ -1928,6 +1929,7 @@ a#zoomer {
   section#contentHolder {
     margin-top: 138px;
   }
+	footer .container{padding-bottom:0px!important;}
   #middle .logo {
     padding-top: 5px;
   }
@@ -2208,12 +2210,12 @@ a#zoomer {
     float: none;
   }
   footer .nav-title.collapsed::before {
-    content: "+";
+    content: "";
     float: right;
     background-size: contain;
   }
   footer span.nav-title::before {
-    content: "-";
+    content: "";
     float: right;
     background-size: contain;
   }
