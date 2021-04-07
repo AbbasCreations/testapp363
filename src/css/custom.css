@@ -148,7 +148,8 @@ div#flush-collapseTwo::-webkit-scrollbar-thumb {
   text-align: center;
 }
 .product-slider__item img {
-
+width: 100%;
+    max-width: 95%;
   margin: 0 auto;
 }
 
@@ -663,7 +664,7 @@ header nav {
 }
 header nav .container {
   max-width: 1310px!important;
-	padding:0 15px;
+	padding:0 15px!important;
 
 }
 header nav i {
@@ -1022,7 +1023,7 @@ display: block;
   height:100%;
   border-radius:10px;
 }
-#index #productslider .productListing a.product{background:#fbfbfb;display: block;height: 100%;border-radius:10px;min-height:330px;}
+#index #productslider .productListing a.product{background:#fbfbfb;display: block;height: 100%;border-radius:10px;min-height:390px;}
 /************************************ Featured products **************************************/
 
 /************************************ Brands **************************************/
