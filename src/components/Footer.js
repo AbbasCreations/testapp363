@@ -20,7 +20,7 @@ export default function Footer() {
 const FooterBlockFirst = () => {
   return (
     <>
-      <div className="col-lg-3 col-md-6 col-12 unique">
+      <div className="col-lg-3 col-md-6 col-sm-6 col-6 unique">
         <span
           className="nav-title collapsed text-light text-uppercase d-block mb-3"
           data-toggle="collapse"
@@ -93,7 +93,7 @@ const FooterBlockFirst = () => {
 const FooterBlockSecond = () => {
   return (
     <>
-      <div className="col-lg-3 col-md-6 col-12 unique">
+      <div className="col-lg-3 col-md-6 col-sm-6 col-6 unique">
         <span
           className="nav-title collapsed text-light fs-6  text-uppercase d-block mb-3"
           data-toggle="collapse"
@@ -130,7 +130,7 @@ const FooterBlockSecond = () => {
 const FooterBlockThird = () => {
   return (
     <>
-      <div className="col-lg-3 col-md-6 col-12 unique">
+      <div className="col-lg-3 col-md-6 col-sm-6 col-6 unique">
         <span
           className="nav-title collapsed text-light fs-6  text-uppercase d-block mb-3"
           data-toggle="collapse"
@@ -167,7 +167,7 @@ const FooterBlockThird = () => {
 const FooterBlockFourth = () => {
   return (
     <>
-      <div className="col-lg-3 col-md-6 col-12 normal">
+      <div className="col-lg-3 col-md-6 col-sm-6 col-6 normal">
         <span className="nav-title text-light fs-6  text-uppercase d-block mb-3">
           follow us
         </span>
