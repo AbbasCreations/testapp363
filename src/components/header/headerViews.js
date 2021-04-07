@@ -169,12 +169,10 @@ export const GetHeaderNavViews = () => {
       <nav className="navbar navbar-expand-lg navbar-dark static-top">
         <div className="container p-0">
           <button
+            id="mobileopen"
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            onClick={() => {
-                  openMobile();
-                }} 
             data-target="#navbarResponsive"
             aria-controls="navbarResponsive"
             aria-expanded="false"
