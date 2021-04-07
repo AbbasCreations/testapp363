@@ -583,7 +583,7 @@ header {
   overflow: hidden;
   background: #fff !important;
   height: 32px;
-  max-width: 1920px;
+  max-width:100%;
 }
 #top .one p {
   display: block;
@@ -642,7 +642,6 @@ header {
 #middle .profile a i {
   font-size: 20px;
   color:#000!important;
-padding-right:0px!important;
 }
 #middle .profile a:last-of-type {
   font-family: "Montserrat-SemiBold";
@@ -678,7 +677,7 @@ header .navbar-dark .navbar-nav .nav-item a.nav-link {
   line-height: 46px;
   font-size: 15.71px;
   text-transform: uppercase;
-  padding: 0px !important;
+  padding: 5px !important;
 }
 header .navbar-dark .navbar-nav .dropdown-menu {
   box-shadow: 0px 3px 5px -5px #222222;
@@ -2123,6 +2122,7 @@ order:3;
   }
 }
 @media (max-width: 767px) {
+	#middle .profile a i {padding-right:0px!important;}
 	#promo-banner .promolayerone{padding:7.5px 0;}
 #promo-banner .promolayertwo{padding:7.5px 0;}
 	.index-slider-animation{margin-bottom:15px!important;}
